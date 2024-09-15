@@ -10,7 +10,7 @@ import connectDB from "./config/db.js";
 
 dotenv.config();
 
-connectDB();
+connectDB(); //mongo db connection
 
 const importData = async () => {
   try {
